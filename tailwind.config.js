@@ -8,17 +8,19 @@ module.exports = {
       fontFamily: {
         rubik: ["Rubik-Bold", "sans-serif"],
         "rubik-bold": ["Rubik-ExtraBold", "sans-serif"],
-        "rubik-light": ["Rubik-Light", "sans-serig"],
+        "rubik-light": ["Rubik-Light", "sans-serif"],
         "rubik-regular": ["Rubik-Regular", "sans-serif"],
         "rubik-medium": ["Rubik-Medium", "sans-serif"],
-        "rubik-semiBNold": ["Rubik-SemiBold", "sans-serif"],
-        "rebik-extrabold": ["Rubik-ExtraBold", "sans-serif"]
+        "rubik-semiBold": ["Rubik-SemiBold", "sans-serif"],
+        "rubik-extrabold": ["Rubik-ExtraBold", "sans-serif"]
       },
-      color: {
+      colors: {
         "primary": {
           100: "#0061ff0a",
           200: "#0061ff1a",
-          300: "#0061ff2a"
+          300: "#0061ff2a",
+          400: "#0061ff",
+          500: "#0052d4"
         },
         accent: {
           100: "#fbfbfd"
@@ -29,7 +31,9 @@ module.exports = {
           200: "#666876",
           300: "#191d31"
         },
-        danger: "#f75555"
+        danger: "#f75555",
+        success: "#4ade80",
+        warning: "#fbbf24"
       }
     },
   },
