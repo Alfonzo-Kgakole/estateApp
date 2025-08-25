@@ -15,25 +15,21 @@ module.exports = {
         "rubik-extrabold": ["Rubik-ExtraBold", "sans-serif"]
       },
       colors: {
-        "primary": {
-          100: "#0061ff0a",
-          200: "#0061ff1a",
-          300: "#0061ff2a",
-          400: "#0061ff",
-          500: "#0052d4"
+        primary: {
+          100: "#0061FF0A",
+          200: "#0061FF1A",
+          300: "#0061FF",
         },
         accent: {
           100: "#fbfbfd"
         },
         black: {
           DEFAULT: "#000000",
-          100: "#8c8e98",
+          100: "#8C8E98",
           200: "#666876",
-          300: "#191d31"
+          300: "#191D31",
         },
         danger: "#f75555",
-        success: "#4ade80",
-        warning: "#fbbf24"
       }
     },
   },
